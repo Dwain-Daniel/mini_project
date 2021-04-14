@@ -15,7 +15,7 @@ app.secret_key = os.environ.get("SECRET_KEY")
 
 @app.route("/")
 def hello():
-    return "Hello World... again!"
+    return "Hello World.... again!"
 
 
 if __name__ == "__main__":
